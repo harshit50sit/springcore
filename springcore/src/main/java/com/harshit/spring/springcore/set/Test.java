@@ -12,7 +12,7 @@ public class Test {
 		CarDealer car = (CarDealer) context.getBean("cardealer");
 		System.out.println(car.getName());
 		System.out.println(car.getModels());
-		//System.out.println(car.getModels().getClass());
+		System.out.println(car.getModels().getClass().getName());
 	}
 
 }
